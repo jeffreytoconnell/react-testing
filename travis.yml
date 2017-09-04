@@ -14,7 +14,7 @@ before_deploy:
 
 deploy:
   provider: script
-  script: netlify deploy -s $NETLIFY_SITE_ID -t $NETLIFY_ACCESS_TOKEN -p ./build
+  script: netlify deploy -s $editor-lesson-55041 -t $faf579f5-0226-4f6f-a119-af31093a4b85 -p ./build
   skip_cleanup: true
   on:
     branch: master
